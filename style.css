@@ -46,20 +46,6 @@ h1{
     color: rgb(106, 171, 36);
 }
 
-@media screen and (max-width: 950px)
-{
-    .out-Container{
-        flex-wrap: wrap;
-    }
-    .Info{
-        margin-top: 34px;
-    }
-    .Info h1{
-        font-size: 1.5rem;
-    }
-    .container { 
-        grid-template-rows: repeat(3, 20vw);
-        grid-template-columns: repeat(3, 20vw);
-    }
-}
+
+
 
