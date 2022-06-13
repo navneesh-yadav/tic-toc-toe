@@ -1,0 +1,48 @@
+.out-container{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(16, 173, 94);
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.box{
+    border: 2px solid rgb(53, 48, 48);
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box:hover{
+   background-color: aqua;
+   cursor: pointer;
+}
+.disp-info{
+    padding: 0 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.alrt{
+    color: rgb(169, 16, 16);
+}
+.info{
+    font-size: 30px;
+}
+#reset{
+    text-align: centre;
+    font-size: 20px;
+    height: 30px;
+    width: 70px;
+    font-weight: bolder;
+    color: rgb(106, 171, 36);
+}
+
